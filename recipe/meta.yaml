@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/RNAformer-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/51/35/da09bc61ebc39bc674911a883f7636c3e99e10fe3b4c2de06a99ef6de0e1/rnaformer-1.2.0.tar.gz
   sha256: 4474af2e142b32238f5bc69951807d0eae4b570c3e4d3a02edc25692f149f4c3
 
 build:
