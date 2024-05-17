@@ -38,8 +38,8 @@ requirements:
     - tensorboard ==2.16.2
     - transformers ==4.39.3
     - datasets ==2.18.0
-    - deepspeed ==0.14.0
     - ninja
+    - deepspeed ==0.14.0
     - rotary-embedding-torch ==0.5.3
 
 test:
