@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.10
-    - torch ==2.1.2
+    - pytorch ==2.1.2
     - loralib ==0.1.2
     - torchvision ==0.16.1
     - tqdm ==4.66.2
