@@ -23,7 +23,6 @@ requirements:
     - python >=3.10
     - pytorch
     - torchvision
-    - torchaudio
     - tqdm
     - pyyaml
     - pyaml
