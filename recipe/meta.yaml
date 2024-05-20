@@ -1,13 +1,13 @@
 {% set name = "RNAformer" %}
-{% set version = "1.3.1" %}
+{% set version = "1.3.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/11/f6/162d97ca73a28c843a2606a09974ead8410be8b3bc913ba7ec0f9a7960b0/rnaformer-1.3.1.tar.gz
-  sha256: 7b85f93bfbc1997e1650bc525a78c7df7a6a0b70d64848379357963f4e6d3671
+  url: https://files.pythonhosted.org/packages/40/ef/c4423512ea51c052d9ffd38c011390d70e6028fcb0c5e881a4ca706dffcc/rnaformer-1.3.2.tar.gz
+  sha256: 112625f8cbc0a9f01b1fd00003967a068c5c25c8b4497733ccb5f812ac57e6a3
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
     - python >=3.10
     - pytorch
     - torchvision
+    - torchaudio
     - tqdm
     - pyyaml
     - pyaml
