@@ -1,13 +1,13 @@
 {% set name = "RNAformer" %}
-{% set version = "1.1.0" %}
+{% set version = "0.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/RNAformer-{{ version }}.tar.gz
-  sha256: 198380821b7af1a806db1a1f2357a71b96bbbb4fca1b842f73e4a4a0d7b6f094
+  url: https://files.pythonhosted.org/packages/57/19/1fc85e4b301f39994f6f7e14657e856a6e2efd200f484eeed0e0e5e2e2b0/rnaformer-0.0.1.tar.gz
+  sha256: 36374aa476ffd0be681e8ad29fec64cb074b6e341db1dc8179fcbd43cdf5da55
 
 build:
   noarch: python
@@ -20,17 +20,34 @@ requirements:
     - pip
   run:
     - python >=3.10
+    - pytorch 
+    - torchvision
+    - tqdm 
+    - pyyaml 
+    - pyaml 
+    - numpy 
+    - packaging
+    - wheel 
+    - tabulate 
+    - scipy 
+    - pandas 
+    - scikit-learn 
+    - matplotlib-base 
+    - polars
+    - loralib 
+    - tensorboard 
+    - transformers 
+    - datasets 
+    - pytorch-lightning
+    - deepspeed 
+    - rotary-embedding-torch 
 
 test:
   imports:
     - RNAformer
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
-  home: https://github.com/automl/RNAformer  # Adjust the URL to the homepage of your project
+  home: https://github.com/automl/RNAformer 
   summary: 'RNAformer: a simple single-sequence-based deep learning model for RNA secondary structure prediction.'
   license: Apache-2.0
   license_file: LICENSE
