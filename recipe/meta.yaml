@@ -30,16 +30,16 @@ requirements:
     - wheel 
     - tabulate 
     - scipy 
-    - pandas ==2.0.2
-    - scikit-learn ==1.3.0
-    - matplotlib-base ==3.7.2
+    - pandas 
+    - scikit-learn 
+    - matplotlib-base 
     - polars
-    - loralib ==0.1.2
-    - tensorboard ==2.13.0
+    - loralib 
+    - tensorboard 
     - transformers 
-    - datasets ==2.13.1
-    - pytorch-lightning ==2.0.4
-    - deepspeed ==0.9.5
+    - datasets 
+    - pytorch-lightning
+    - deepspeed 
     - rotary-embedding-torch 
 
 test:
